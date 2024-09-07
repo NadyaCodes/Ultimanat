@@ -1,4 +1,4 @@
-import { anatomicalTerms } from "./anatomicalTerms";
+import { anatomicalTerms, bodyPartMovements } from "./anatomicalTerms";
 import { ListObject, mnemonics } from "./mnemonics";
 
 export type TermObject = {
@@ -28,15 +28,23 @@ export const emptyDeckObject = {
 
 export const deckObject: DeckObject = {
   "1.1" : {
-    group: "intro",
-    chapter: "Week 1",
+    group: "Module 1",
+    chapter: "Basic Terms, Planes & Order",
     unitCode: "anatomical-terms",
     unitName: "Anatomical Terms",
     deckType: "tri",
     data: anatomicalTerms
   },
+  "1.2" : {
+    group: "Module 1",
+    chapter: "Movements & Directions",
+    unitCode: "body-movements",
+    unitName: "Body Part Movements",
+    deckType: "tri",
+    data: bodyPartMovements
+  },
   "mnem" : {
-    group: "extras",
+    group: "One day this will have a purpose",
     chapter: "Mnemonics & Acronyms",
     unitCode: "mnmnonics-acronyms",
     unitName: "Mna Mna",
