@@ -50,7 +50,7 @@ export const anatomicalTerms: TermObject = {
   "intermediate" : "between superficial and deep",
   "deep" : "structure farther away from the surface",
   "proximal" : "towards the origin or towards trunk",
-  "distal" : "away from origin or towards trunk",
+  "distal" : "away from origin or away from trunk",
   "medial" : "closer to midline",
   "lateral" : "farther from midline",
   "axial skeleton" : "head neck & trunk",
@@ -71,7 +71,7 @@ export const anatomicalTerms: TermObject = {
   "smooth muscle" : "what types of cells work together in small intenstine to push food through",
   "epithelial, smooth muscle, connective" : "what types of tissues make up blood vessel (from inside to out)",
   "deviated" : "we use anatomical position to explain what type of positions",
-  "thumbs" : "best hand element to check which way palms are facing",
+  "thumb" : "best hand element to check which way palms are facing",
   "forward" : "the direction hands face in anatomical position",
 }
 
