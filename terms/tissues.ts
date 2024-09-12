@@ -1,0 +1,23 @@
+export const tissuesA = {
+  "tissues" : "groups of cells that are similar in structure & have common related function",
+  "histology" : "the study of tissues",
+  "microscopic anatomy" : "the anatomy branch above histology",
+  "epithelial" : "type of tissue that protects",
+  "connective" : "type of tissue that supports",
+  "muscle" : "type of tissue that helps movement",
+  "nervous" : "type of tissue that controls",
+  "covering epithelium" : "forms outer layer of skin & internal structures - sounds like top layer",
+  "lining epithelium" : "forms outer layer of skin & internal structures - sounds like internal layer",
+  "glandular epithelium" : "forms glands of body",
+  "skin" : "what protects us from outside world",
+  "barrier muscle" : "epithelial cells line the inside of the stomach to serve as a _____ to protect the organ's _____",
+  "saliva" : "substance secreted by glands",
+  "boundary" : "primary purpose of epithelial cell; what they form",
+  "physical protection" : "key function of epithelial cells",
+  "basement membrane" : "dense layer of extracellular matrix that lines most human tissues",
+  "lumen" : "opening in a tubular structure",
+  "absorption" : "one of 4 functions of epithelial cells that is related to selective barrier properties",
+  "sensation" : "a function of epithelia cells eg. tasebuds on tongue",
+  "sensory receptors" : "to facilitate sensation, epithelial cells make up ____",
+  "photoreceptors" : "receptors in eye"
+}
