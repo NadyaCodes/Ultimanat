@@ -1,6 +1,6 @@
 import { anatomicalTerms, bodyPartMovements } from "./anatomicalTerms";
 import { ListObject, mnemonics } from "./mnemonics";
-import { tissuesA } from "./tissues";
+import { tissuesA, tissuesB } from "./tissues";
 
 export type TermObject = {
   [key: string]: string;
@@ -46,11 +46,19 @@ export const deckObject: DeckObject = {
   },
   "2.1" : {
     group: "Module 2",
-    chapter: "Tissues A",
+    chapter: "Epithelial Tissues",
     unitCode: "tissues",
-    unitName: "Tissues",
+    unitName: "Tissues A",
     deckType: "tri",
     data: tissuesA
+  },
+  "2.2" : {
+    group: "Module 2",
+    chapter: "Connective Tissues",
+    unitCode: "tissues",
+    unitName: "Tissues B",
+    deckType: "tri",
+    data: tissuesB
   },
   "mnem" : {
     group: "One day this will have a purpose",
