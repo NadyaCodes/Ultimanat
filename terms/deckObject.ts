@@ -55,7 +55,7 @@ export const deckObject: DeckObject = {
   "2.2" : {
     group: "Module 2",
     chapter: "Connective Tissues",
-    unitCode: "tissues",
+    unitCode: "tissuesB",
     unitName: "Tissues B",
     deckType: "tri",
     data: tissuesB
