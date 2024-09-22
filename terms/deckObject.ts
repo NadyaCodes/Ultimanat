@@ -1,5 +1,5 @@
 import { anatomicalTerms, bodyPartMovements } from "./anatomicalTerms";
-import { lab1Terms } from "./labTerms";
+import { lab1Terms, lab2Terms } from "./labTerms";
 import { ListObject, mnemonics } from "./mnemonics";
 import { tissuesA, tissuesB } from "./tissues";
 
@@ -68,6 +68,14 @@ export const deckObject: DeckObject = {
     unitName: "Lab 1",
     deckType: "tri",
     data: lab1Terms
+  },
+  "Lab2" : {
+    group: "Labs",
+    chapter: "Appendicular Skeleton",
+    unitCode: "appendS",
+    unitName: "Lab 2",
+    deckType: "tri",
+    data: lab2Terms
   },
   "mnem" : {
     group: "One day this will have a purpose",
