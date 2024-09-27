@@ -95,7 +95,7 @@ export const tissuesB = {
   "mesenchyme" : "what connective tissue originally developed from",
   "bone support" : "'support' function in body, provides framework (incl. 'support')",
   "cartilage" : "'support' function in body, preventing structures such as the trachea & windpipe from collapsing",
-  "fibrocartilage" : "'support' function in body, structure on intervertebral disc that helps hold load",
+  "fibrocartilage" : "'support' function in body, substance on intervertebral disc that helps hold load",
   "tendon" : "'binding' function in body, attaches muscle to bone",
   "adipose" : "'storage' function in body, stores energy as fat",
   "bone storage" : "'storage' function in body, stores calcium, fat & blood cells, (incl. 'storage')",
