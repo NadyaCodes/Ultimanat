@@ -94,10 +94,10 @@ export const deckObject: DeckObject = {
     data: lab2Terms
   },
   "mnem" : {
-    group: "One day this will have a purpose",
-    chapter: "Mnemonics & Acronyms",
-    unitCode: "mnmnonics-acronyms",
-    unitName: "Mna Mna",
+    group: "Lab Terms List",
+    chapter: "Lab Terms List for Exam 1",
+    unitCode: "lab-1",
+    unitName: "Lab List",
     deckType: "list",
     data: mnemonics
   }
