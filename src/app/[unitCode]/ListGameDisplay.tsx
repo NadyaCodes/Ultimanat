@@ -45,7 +45,7 @@ const ListGameDisplay: React.FC<ListGameDisplayProps> = ({
     setTermList(shuffleArray(chapterKeys));
   }, [chapterKeys]);
 
-  const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleInputChange = (event: React.ChangeEvent<HTMLTextAreaElement>) => {
     setGuessedTerm(event.target.value);
   };
 
@@ -186,13 +186,21 @@ const ListGameDisplay: React.FC<ListGameDisplayProps> = ({
 
         {done && "All Done!!"}
         <div className="flex w-full justify-center">
-          <input
+          {/* <input
             type="text"
             value={guessedTerm}
             onChange={handleInputChange}
             className="mr-2 mt-2 w-3/4 rounded border p-2 text-purple-950"
             placeholder="Type your guess here"
+          /> */}
+          <textarea
+            value={guessedTerm}
+            onChange={handleInputChange}
+            className="mr-2 mt-2 w-3/4 rounded border p-2 text-purple-950"
+            placeholder="Type your guess here"
+            rows={4} // Adjust the number of rows as needed
           />
+
           <button
             onClick={checkGuess}
             className="mt-2 rounded bg-teal-500 p-2 text-white"
@@ -200,7 +208,7 @@ const ListGameDisplay: React.FC<ListGameDisplayProps> = ({
             Check
           </button>
         </div>
-        {result && <div className="flex">{result}</div>}
+        {result && <div className="flex flex-wrap">{result}</div>}
         <div className="m-4 flex gap-4">
           <button
             onClick={moveForwardRepeat}
