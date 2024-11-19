@@ -95,8 +95,8 @@ export const deckObject: DeckObject = {
   },
   "mnem" : {
     group: "Lab Terms List",
-    chapter: "Lab Terms List for Exam 1",
-    unitCode: "lab-1",
+    chapter: "Lab Terms List for Exam 2",
+    unitCode: "lab-2",
     unitName: "Lab List",
     deckType: "list",
     data: mnemonics
