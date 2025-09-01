@@ -7,6 +7,17 @@ export type TermObject = {
   [key: string]: string;
 };
 
+export type SingleTerm = {
+  id: number;
+  name: string;
+  origin: string[];
+  insertion: string[];
+  action: string[];
+  artery: string[] | undefined;
+  nerve: string[] | undefined;
+  spinalLevel: string[]
+}
+
 
 export type Deck = {
   group: string;
